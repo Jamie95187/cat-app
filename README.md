@@ -1,6 +1,6 @@
 # cat-app
 
-| [Setting Up](#SettingUp) | [Run Tests](#RunTests)| [MVP](#MVP) | [User Stories](#UserStories) | [Further Implementations](#FurtherImplementations) | [Hindsight](#Whatcouldhavegonebetter) |
+| [Setting Up](#SettingUp) | [Run Tests](#RunTests)| [MVP](#MVP) | [User Stories](#UserStories) | [Further Implementations](#FurtherImplementations) | [Hindsight](#What-could-have-gone-better) |
 
 A single page application where users can load a random picture of a cat from TheCATAPI.
 
