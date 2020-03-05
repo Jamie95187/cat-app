@@ -1,5 +1,5 @@
 import React from 'react';
-import { shallow, mount } from 'enzyme';
+import { shallow } from 'enzyme';
 import App from '../App';
 
 describe('App', () => {
@@ -7,13 +7,14 @@ describe('App', () => {
 
   beforeEach(() => {
     wrapper = shallow(<App />);
-    console.log(wrapper);
   });
 
-  it('should render a cat image', () => {
-    const image = wrapper.find(Image);
-    expect(image).toBeDefined();
-    expect(wrapper.length).toBe(1);
+  it('should render a div for the app', () => {
+    expect(wrapper.find('.App').length).toBe(1);
+  });
+
+  it('should render a container div for the app', () => {
+    expect(wrapper.find('.container').length).toBe(1);
   });
 
 });
